@@ -7,7 +7,7 @@ const Navbar = () => {
                     <Link to='/'>
                         my list
                     </Link>
-                    <Link to='/add-todo'>
+                    <Link to='/add'>
                         add item
                     </Link>
                 </div>

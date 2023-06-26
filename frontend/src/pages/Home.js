@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
-import { readTodos } from "../api/readTodos";
+import { readTodos } from "../api/readTodos"
 import Card from '../components/Card'
-import { deleteTodo } from "../api/deleteTodo";
+import { deleteTodo } from "../api/deleteTodo"
 const Home = () => {
     const [todos, setTodos] = useState([])
-
 
     const deleteHandler = async (todo) => {
       
